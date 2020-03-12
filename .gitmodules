@@ -1,0 +1,6 @@
+[submodule "r8"]
+	path = r8
+	url = https://r8.googlesource.com/r8
+[submodule "depot_tools"]
+	path = depot_tools
+	url = https://chromium.googlesource.com/chromium/tools/depot_tools.git
