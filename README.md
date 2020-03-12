@@ -12,6 +12,6 @@ tools/gradle.py r8
 ## Retracing
 
 ```
-java -cp ~/Projects/r8-retrace/build/libs/r8.jar com.android.tools.r8.retrace.Retrace \
+java -cp ~/Projects/r8-retrace/r8/build/libs/r8.jar com.android.tools.r8.retrace.Retrace \
   target/build/outputs/mapping/release/mapping.txt stacktrace.txt > retraced.txt
 ```
